@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.8607594936708861,
+  "precision_macro": 0.846551724137931,
+  "recall_macro": 0.851890756302521,
+  "f1_macro": 0.8490533263852701,
+  "precision_rotten": 0.7931034482758621,
+  "recall_rotten": 0.8214285714285714,
+  "f1_rotten": 0.8070175438596491,
+  "roc_auc": 0.9229691876750701,
+  "mean_confidence": 0.9516364709448308,
+  "mean_confidence_when_correct": 0.9656893676365869,
+  "mean_confidence_when_wrong": 0.8647640186685197,
+  "brier_score": 0.11207534020207598,
+  "n_test": 79.0,
+  "fruit_type_accuracy_test": 0.7848101265822784,
+  "chosen_sigma": 0.2956,
+  "chosen_priors": "uniform",
+  "val_macro_f1_at_chosen": 0.9588327253778008,
+  "confusion_matrix [[TN,FP],[FN,TP]] (Fresh=0, Rotten=1)": [
+    [
+      45,
+      6
+    ],
+    [
+      5,
+      23
+    ]
+  ]
+}
